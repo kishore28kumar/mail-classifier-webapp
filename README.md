@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Desgin
+This is the [Figma Design File](https://www.figma.com/design/gWyth0Z2xkXMZ2ZTjRqtH1/Mail-Classifier?node-id=0-1) for the following Project
+
 ## Getting Started
 
 First, run the development server:
