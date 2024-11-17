@@ -2,3 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 600;
+}
+
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.h-06 {
+   height: 0.063rem;
+}

@@ -1,11 +1,11 @@
-import React from 'react'
+import AuthOp from "../componets/AuthOp";
 
 const Auth = () => {
   return (
-    <div>
-      <div className='text-xl font-'>Mail Classifier</div>
-    </div>
-  )
-}
+    <main className="flex flex-col items-center justify-center min-h-screen text-center p-">
+      <AuthOp />
+    </main>
+  );
+};
 
-export default Auth
+export default Auth;
