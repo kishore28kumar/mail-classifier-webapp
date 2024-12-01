@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import { signIn, useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
@@ -15,7 +15,12 @@ const AuthOp = () => {
         <h2>Create an account</h2>
       </div>
       <div>
-        <button className="flex items-center justify-between border rounded-lg w-full bg-black text-white px-3 py-2 my-6">
+        <button
+          className="flex items-center justify-between border rounded-lg w-full bg-black text-white px-3 py-2 my-6"
+          onClick={() => {
+            signIn("google");
+          }}
+        >
           <img
             src="https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png"
             alt="google"
@@ -30,7 +35,12 @@ const AuthOp = () => {
           </div>
           <div className="flex-grow bg bg-gray-300 h-06"></div>
         </div>
-        <button className="flex items-center justify-between border rounded-lg w-full bg-neutral-200 px-3 py-2 my-6" onClick={()=>{signIn("google")}}>
+        <button
+          className="flex items-center justify-between border rounded-lg w-full bg-neutral-200 px-3 py-2 my-6"
+          onClick={() => {
+            signIn("google");
+          }}
+        >
           <img
             src="https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png"
             alt="google"
